@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.ufo {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+    transition: 2.5s;
+    transform: rotateY(180deg);
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    color: rgb(49, 22, 201);
+    margin-left: 70px;
+    border-radius: 23px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px blue;
+    font-size: 30px;
+    
+}
+
+
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+
+}
+
+nav ul li a {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ nav ul li a::before{
+    content: "";
+    position: absolute;
+    left: 5;
+    top: 5px;
+    width: 0px; 
+    height: 3px;
+    background-color: blue;
+    transition: 0.4s ease-out;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.mainn {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+h1:hover{
+    cursor: pointer;
+    color: rgb(203, 203, 211);
+  text-shadow: 17px 17px 17px rgb(6, 6, 247);
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 120px;
+    margin-left: 0;
+
+}
+
+button {
+    width: 180px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    padding: 13px 0;
+    background: blue;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+    font-size: 17px;
+
+}
+
+button:hover {
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    width: 210px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-size: cover;
+    transition: 0.5s;
+    padding-top: 17%;
+    box-shadow: 1px 1px 1px rgb(167, 165, 165);
+}
+
+
+.card_1 {
+    background-image:linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url(uz1.png);
+
+}
+
+.card_2 {
+    background-image: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url(uz2.png);
+}
+
+.card_3 {
+    background-image:linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%),  url(uz3.png);
+}
+
+.card_4 {
+    background-image:linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url(uz4.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 25px;
+}
+
+.card p {
+    text-shadow: white;
+    line-height: 1;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: 25%;
+    text-align: left;
+
+}
